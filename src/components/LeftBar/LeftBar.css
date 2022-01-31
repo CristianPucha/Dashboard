@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* Estilo para las barras*/
+
+
+
+@keyframes top-right {
+    from{ transform: translateX(-200%)}
+    to{ transform: translateX(0%)}
+}
+
+
+.left-bar{
+    background: url(../../assets/img/1457170.jpg) ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-y: 120%;
+    background-color: #2a2927;
+    width: 12vw;
+    height: 85vh;
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    border-radius: 5px;
+    animation: left-down 1s;
+    
+    box-shadow: 10px -2px 5px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px -2px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px -2px 5px -3px rgba(0,0,0,0.75);
+}
+
+@keyframes left-down {
+    from{ transform: translateY(-200%)}
+    to{ transform: translateY(0%)}
+}
+
+/* Fin Estilo para las barras*/
+
+
+.left-bar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+.left-bar ul li {
+    padding: 0.8em 1.8em;
+    
+
+ position: relative;
+ overflow: hidden;
+ background-color: transparent;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 16px;
+ transition: .3s;
+ z-index: 1;
+ font-family: inherit;
+ color: #ffcc01;
+ width: 100%;
+ margin-top: 30px;
+}
+
+.left-bar ul li::before{
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffcc01;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.left-bar ul li:hover{
+    color: white;
+    font-weight: bold;
+}
+.left-bar ul li:hover:before {
+        width: 105%;
+} 
+
+.left-bar ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+

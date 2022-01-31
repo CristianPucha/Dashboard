@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilo para las barras*/
+
+.top-bar{
+    background: url(../../assets//img//20492255.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 90vw;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    position: absolute;
+    left: 50px;
+    z-index: 24;
+    border-radius: 5px;
+    animation: top-right 1s ;
+    box-shadow: 10px 7px 5px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 7px 5px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 7px 5px -5px rgba(0,0,0,0.75);
+    
+}
+
+@keyframes top-right {
+    from{ transform: translateX(-200%)}
+    to{ transform: translateX(0%)}
+}
+
+
+
+.top-bar h1 {
+    color: white;
+    font-family: 'Sedgwick Ave';
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+

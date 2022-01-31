@@ -1,0 +1,79 @@
+.userCard{
+    width: 40vw;
+    margin: auto;
+    font-size: 18px;
+   border-radius: 0.5em;
+   background: #e8e8e8;
+   border: 1px solid #e8e8e8;
+   transition: all 1s;
+   box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   animation: ListaProductos 1s;
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.userName{
+   padding: 10px;
+   border-radius: 0.5em;
+   background: #e8e8e8;
+   border: 1px solid #e8e8e8;
+   transition: all 1s;
+   box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   animation: ListaProductos 1s;
+}
+
+@keyframes ListaProductos {
+    from{ transform: translatex(400%)}
+    to{ transform: translatex(0%) }
+}
+
+.datosUser h1 {
+    font-size: 1.5rem;
+    margin: 20px;
+    border-bottom: 2px solid #b1aea3;
+}
+
+.datosUser p {
+   
+    margin: 20px;
+}
+
+.datosUser {
+    text-align: center;
+}
+
+.imgUser{
+   
+   border-radius: 0.5em;
+   background: #e8e8e8;
+   border: 1px solid #e8e8e8;
+   transition: all 1s;
+   box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+.imgUser img{
+    width: 300px;
+   
+ }
+
+ .ultimoprod{
+     font-size: 2rem;
+     text-shadow: 1px 1px 3px rgba(150, 179, 154, 1);
+ }
+
+ .descripcionprod{
+     font-size: 1.5rem;
+     
+ }
+
+ #descripcionprod{
+     font-size: 30px;
+
+ }
+
+ #precioultimo{
+     font-size: 25px;
+ }

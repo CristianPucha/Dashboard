@@ -1,0 +1,56 @@
+.userCard{
+    font-size: 18px;
+   border-radius: 0.5em;
+   background: #e8e8e8;
+   border: 1px solid #e8e8e8;
+   transition: all 1s;
+   box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   animation: ListaProductos 1s;
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.userName{
+   padding: 10px;
+   border-radius: 0.5em;
+   background: #e8e8e8;
+   border: 1px solid #e8e8e8;
+   transition: all 1s;
+   box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   animation: ListaProductos 1s;
+}
+
+@keyframes ListaProductos {
+    from{ transform: translatex(400%)}
+    to{ transform: translatex(0%) }
+}
+
+.datosUser h1 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.datosUser p {
+   
+    margin: 20px;
+}
+
+.datosUser {
+    text-align: center;
+}
+
+.imgUser{
+   
+   border-radius: 0.5em;
+   background: #e8e8e8;
+   border: 1px solid #e8e8e8;
+   transition: all 1s;
+   box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+#mailusu{
+    font-size: 25px;
+}
